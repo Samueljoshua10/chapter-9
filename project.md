@@ -2,7 +2,7 @@
 
 <!-- TODO -->
 ```
-Your Name
+Samuel joshua
 ```
 
 ## Project 9-1
@@ -13,21 +13,21 @@ Which process has a Process ID of 1? (PID=1)
 
 <!-- TODO -->
 ```
-Your answer here.
+/user/lib/system/systemd
 ```
 
 What character do most processes have in the terminal column (tty)
 
 <!-- TODO -->
 ```
-Your answer here.
+?
 ```
 
 What does this character in the terminal column indicate?
 
 <!-- TODO -->
 ```
-Your answer here.
+Deamon process
 ```
 
 ## Project 9-2
@@ -38,7 +38,7 @@ Why did this command work when the others did not?
 
 <!-- TODO -->
 ```
-Your answer here.
+kill -PID forced the kill on bash
 ```
 
 ## Project 9-3
@@ -48,7 +48,7 @@ Your answer here.
 Insert the screen capture
 
 <!-- TODO -->
-![Alt Text](media/file.png)
+![Alt Text](media/pica.png)
 
 ## Project 9-4
 
@@ -58,28 +58,28 @@ Number of processes:
 
 <!-- TODO -->
 ```
-Your answer here.
+223
 ```
 
 Number of sleeping processes:
 
 <!-- TODO -->
 ```
-Your answer here.
+219
 ```
 
 Amount of total memory (K):
 
 <!-- TODO -->
 ```
-Your answer here.
+4037
 ```
 
 Amount of total swap memory (K):
 
 <!-- TODO -->
 ```
-Your answer here.
+4170
 ```
 
 ## Project 9-5
@@ -89,8 +89,7 @@ Your answer here.
 When is the raid-check command run by the cron daemon?
 
 <!-- TODO -->
-```
-Your answer here.
+```Sunday at 1am by default 0 1* * Sun   root
 ```
 
 ## Project 9-6
@@ -100,16 +99,32 @@ Your answer here.
 Insert the screen capture
 
 <!-- TODO -->
-![Alt Text](media/file.png)
-
+![Alt Text](media/picb.png)
+![Alt Text](media/picc.png)
 ## Command Reference
 
 List all new commands you learned in this chapter.
 
 <!-- TODO -->
 ```
-your-command
-your-command
-your-command
+ls /etc/cron.daily
+
+cat meminfo | less
+
+cat swaps
+
+cat status | less
+
+crontab -r
+
+cd 1
+
+cat /etc/cron.d/raid-check
+
+ls /etc/cron.d
+
+
+
+
 ```
 
